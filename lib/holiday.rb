@@ -66,7 +66,7 @@ def all_winter_holiday_supplies(holiday_hash)
   winter_supplies = []
   
   winter_supplies << holiday_hash[:winter].map do |holiday, supplies|
-    supplies.join
+    supplies
   end
 
 end
